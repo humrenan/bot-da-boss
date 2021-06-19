@@ -4,11 +4,11 @@
 
 Converse com o [@BotFather do Telegram](https://t.me/BotFather) e crie um bot de teste unicamente seu seguindo as instruções dele.
 
-
+env/bot-telegram.env
 
 
 ##### Exporte as variáveis do seu bot
-Após escolher um nome para seu bot, o @BotFather lhe dará um token para utilizar para acessar a API do Telegram. Adicione ambos no [arquivo de configurações do bot](../env/bot-telegram.env), como a seguir. Substitua o TELEGRAM_TOKEN pelo token lhe enviado pelo @BotFather e TELEGRAM_BOT_USERNAME pelo nome do seu bot.
+Após escolher um nome para seu bot, o @BotFather lhe dará um token para utilizar para acessar a API do Telegram. Adicione ambos no [arquivo de configurações do bot](/env/bot-telegram.env), como a seguir. Substitua o TELEGRAM_TOKEN pelo token lhe enviado pelo @BotFather e TELEGRAM_BOT_USERNAME pelo nome do seu bot.
 
 ```sh
 TELEGRAM_BOT_USERNAME=token_fornecido_pelo_BotFather
