@@ -4,7 +4,6 @@
 
 Converse com o [@BotFather do Telegram](https://t.me/BotFather) e crie um bot de teste unicamente seu seguindo as instruções dele.
 
-env/bot-telegram.env
 
 
 ##### Exporte as variáveis do seu bot
