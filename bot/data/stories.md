@@ -378,3 +378,8 @@
 * fatos_sobre_gatos
     - utter_fato_sobre_gatos
     - action_cat_facts
+
+## bitcoin
+* bitcoin
+    - utter_bitcoin
+    - action_bitcoin

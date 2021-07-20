@@ -552,3 +552,11 @@
 - Quero saber algo dos [gatos](gato)
 - O que voce sabe sobre [gatinho](gato?)
 - o que vc sabe sobre [gatos](gato)?
+
+## intent:bitcoin
+- qual o preço do bitcoin?
+- quanto custa um bitcoin?
+- vc sabe quanto está o bitcoin hj?
+- me fala o preço do bitcoin hj?
+- vc sabe quanto tá o preço do bitcoin?
+- qual a cotação do bitcoin?

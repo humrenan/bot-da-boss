@@ -116,4 +116,18 @@ class ActionCatFacts(Action):
                 dispatcher.utter_message(ValueError)
             return []
 
-        
+class ActionBitcoin(Action):
+    def name(self) -> Text:
+        return "action_bitcoin"
+
+    def run(self, dispatcher, tracker, domain):
+        req = requests.request('GET', "https://api.coinlore.net/api/ticker/?id=90")
+        bitcoins = req.json()
+        bitcoin = bitcoins[0]
+        bitcoin_price = bitcoin['price_usd']
+
+        try:
+            dispatcher.utter_message("O preço do bitcoin está {} dólares".format(bitcoin_price))
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        return []

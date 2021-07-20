@@ -43,6 +43,7 @@ intents:
 - informar_nome
 - casa_hogwarts
 - fatos_sobre_gatos
+- bitcoin
 entities:
 - religiao
 - time
@@ -266,6 +267,8 @@ responses:
     - text: Aqui vai um fato sobre gato...
     - text: Uma coisa legal sobre gatos...
     - text: Um fato sobre gatinhos...
+  utter_bitcoin:
+    - text: Vou olhar o preço pra você...
 
 actions:
 - action_teste
@@ -273,6 +276,7 @@ actions:
 - action_pedir_conselho
 - action_sorting_hat
 - action_cat_facts
+- action_bitcoin
 
 forms:
   - login_form
